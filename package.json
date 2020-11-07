@@ -1,0 +1,23 @@
+{
+  "name": "css-task",
+  "version": "1.0.0",
+  "description": "![Template](/template.jpg)",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jm-program/css-task.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jm-program/css-task/issues"
+  },
+  "homepage": "https://github.com/jm-program/css-task#readme"
+}

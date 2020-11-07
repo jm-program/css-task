@@ -1,0 +1,18 @@
+@import "base";
+
+.main {
+
+    &__left {
+        background-color: gray;
+    }
+
+    &__right {
+        padding: 11.5rem 7rem;
+        background-color: chocolate;
+
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-row-gap: 6rem;
+    }
+}
+
