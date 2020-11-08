@@ -1,7 +1,7 @@
 @import "base";
 @import "typography";
 @import "registration";
-
+@import "select";
 
 .main {
 
@@ -24,8 +24,8 @@
             border: none;
             border-radius: 4px;
             background-color: #0076B6;
-            height: 50%;
-            width: 40%;
+            height: 30%;
+            width: 50%;
             color: white;
             font-weight: 200;
         }
