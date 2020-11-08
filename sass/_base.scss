@@ -1,14 +1,17 @@
 // COLOR VARIABLES
-$color-primary: #c69963;
-$color-primary-dark: #B28451;
+$color-bg: #EFF6FF;
+$color-base-text: #2A4A5C;
 
-$color-secondary: #101d2c;
+$color-button-fb: #255A9B;
+$color-button-ln: #0076B6;
 
-$color-grey-light-1: #f9f7f6;
-$color-grey-light-2: #aaa;
+$color-another-1: #3698FB;
+$color-text-content: #7B8A92;
+$color-another-3: #96A5B1;
+$color-grey-light: #AFAFAF;
+$color-another-5: #EEEEEE;
+$color-another-6: #FFFFFF;
 
-$color-grey-dark-1: #54483A;
-$color-grey-dark-2: #6D5D4B;
 
 // FONT VARIABLES
 $font-primary: 'Nunito', sans-serif;
@@ -59,6 +62,8 @@ body {
     @media only screen and (max-width: $bp-medium) {
         grid-template-rows: 6rem calc(100vh - 6rem) min-content min-content min-content repeat(3, min-content);
     }
+
+
 
 
 }

@@ -8,9 +8,6 @@
 html {
   box-sizing: inherit;
   font-size: 62.5%; }
-  @media only screen and (max-width: 62.5em) {
-    html {
-      font-size: 50%; } }
 
 body {
   font-family: "Nunito", sans-serif;
@@ -29,12 +26,147 @@ body {
     .main {
       grid-template-rows: 6rem calc(100vh - 6rem) min-content min-content min-content repeat(3, min-content); } }
 
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  box-sizing: inherit;
+  font-size: 62.5%; }
+
+body {
+  font-family: "Nunito", sans-serif;
+  background-color: white;
+  font-weight: 300;
+  line-height: 1.6; }
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
+  @media only screen and (max-width: 62.5em) {
+    .main {
+      grid-template-rows: 6rem 80vh min-content 40vw repeat(3, min-content);
+      grid-template-columns: [sidebar-end full-start] minmax(3rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(3rem, 1fr) [full-end]; } }
+  @media only screen and (max-width: 50em) {
+    .main {
+      grid-template-rows: 6rem calc(100vh - 6rem) min-content min-content min-content repeat(3, min-content); } }
+
+.heading-1 {
+  color: #2A4A5C;
+  font-weight: 400; }
+
+.text-content {
+  color: #7B8A92; }
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  box-sizing: inherit;
+  font-size: 62.5%; }
+
+body {
+  font-family: "Nunito", sans-serif;
+  background-color: white;
+  font-weight: 300;
+  line-height: 1.6; }
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
+  @media only screen and (max-width: 62.5em) {
+    .main {
+      grid-template-rows: 6rem 80vh min-content 40vw repeat(3, min-content);
+      grid-template-columns: [sidebar-end full-start] minmax(3rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(3rem, 1fr) [full-end]; } }
+  @media only screen and (max-width: 50em) {
+    .main {
+      grid-template-rows: 6rem calc(100vh - 6rem) min-content min-content min-content repeat(3, min-content); } }
+
+.registration__buttons__fb, .registration__buttons__ln {
+  padding: 1rem;
+  color: #EEEEEE;
+  font-size: 1rem;
+  height: 100%;
+  width: 40%;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center; }
+
+.registration {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-row-gap: 2rem;
+  align-content: center; }
+  .registration__buttons {
+    display: flex;
+    justify-content: space-between; }
+    .registration__buttons__fb {
+      background-color: #255A9B; }
+      .registration__buttons__fb img {
+        height: 1.6rem; }
+    .registration__buttons__ln {
+      background-color: #0076B6; }
+      .registration__buttons__ln img {
+        height: 1.6rem; }
+  .registration__or {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-column-gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #2A4A5C; }
+    .registration__or::before, .registration__or::after {
+      content: "";
+      height: 1px;
+      display: block;
+      background-color: #7B8A92; }
+  .registration__inputs {
+    display: flex;
+    justify-content: space-between; }
+    .registration__inputs__input {
+      background-color: #EFF6FF;
+      font-size: 1rem;
+      height: 100%;
+      width: 40%;
+      transition: all .3s;
+      border: 1px solid #AFAFAF;
+      text-align: left;
+      padding-left: 10px; }
+      .registration__inputs__input:focus {
+        outline: none;
+        border-left: 2px solid green; }
+      z .registration__inputs__input:focus:invalid {
+        border-left: 2px solid orangered; }
+      .registration__inputs__input::-webkit-input-placeholder {
+        color: #7B8A92; }
+
 .main__left {
-  background-color: gray; }
+  width: 50vw;
+  background-image: url("../img/bg.jpg");
+  background-size: cover; }
 
 .main__right {
+  background-color: #EFF6FF;
   padding: 11.5rem 7rem;
-  background-color: chocolate;
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-rows: min-content 1fr min-content 1fr;
   grid-row-gap: 6rem; }
+  .main__right__create-button {
+    border: none;
+    border-radius: 4px;
+    background-color: #0076B6;
+    height: 50%;
+    width: 40%;
+    color: white;
+    font-weight: 200; }

@@ -5,19 +5,37 @@
     <title>css-task</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body class="main">
-<div class="main__left">Left block</div>
+<div class="main__left">Left block with image</div>
 <div class="main__right">
     <div class="main__right__text-content">
-        <h1>Get in to it today</h1>
-        <p1>There is no charge or obligation upon registration</p1>
+        <h1 class="heading-1">Get in to it today</h1>
+        <p class="text-content">There is no charge or obligation upon registration</p>
     </div>
     <div class="registration">
-        <button class="registration__button"></button>
-        <button class="registration__button"></button>
+        <div class="registration__buttons">
+            <button class="registration__buttons__fb" value="">
+                <img src="img/facebook.svg"/>
+                <p>Register with Facebook</p>
+            </button>
+            <button class="registration__buttons__ln">
+                <img src="img/linkedin.svg"/>
+                <p>Register with Linkedln</p>
+            </button>
+        </div>
+        <div class="registration__or">OR</div>
+        <div class="registration__inputs">
+                <input type="email" class="registration__inputs__input" placeholder="email"/>
+<!--                <label for="name" class="form__label">email</label>-->
+
+            <input type="phone" class="registration__inputs__input" placeholder="phone"/>
+        </div>
+
     </div>
     <div class="select">Select block</div>
-    <button>Create account</button>
+    <button class="main__right__create-button">Create account</button>
 </div>
 </body>
+
 </html>

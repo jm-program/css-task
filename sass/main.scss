@@ -1,18 +1,37 @@
 @import "base";
+@import "typography";
+@import "registration";
+
 
 .main {
 
     &__left {
-        background-color: gray;
+        width: 50vw;
+        //background-color: gray;
+        background-image: url("../img/bg.jpg");
+        background-size: cover;
     }
 
     &__right {
+        background-color: $color-bg;
         padding: 11.5rem 7rem;
-        background-color: chocolate;
 
         display: grid;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-rows: min-content 1fr min-content 1fr;
         grid-row-gap: 6rem;
+
+        &__create-button {
+            border: none;
+            border-radius: 4px;
+            background-color: #0076B6;
+            height: 50%;
+            width: 40%;
+            color: white;
+            font-weight: 200;
+        }
     }
 }
+
+
+
 
