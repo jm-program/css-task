@@ -14,7 +14,8 @@ $color-another-6: #FFFFFF;
 
 
 // FONT VARIABLES
-$font-primary: 'Nunito', sans-serif;
+$font-primary: 'Barlow';
+//$font-primary: 'Barlow', sans-serif;
 $font-display: 'Josefin Sans', sans-serif;
 
 
@@ -62,8 +63,5 @@ body {
     @media only screen and (max-width: $bp-medium) {
         grid-template-rows: 6rem calc(100vh - 6rem) min-content min-content min-content repeat(3, min-content);
     }
-
-
-
 
 }

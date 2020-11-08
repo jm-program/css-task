@@ -6,10 +6,19 @@
 .main {
 
     &__left {
+        position: relative;
         width: 50vw;
         //background-color: gray;
         background-image: url("../img/bg.jpg");
         background-size: cover;
+
+        &__logo {
+            position: absolute;
+            height: 15rem;
+            width: 15rem;
+            left: 4rem;
+            top:-2rem;
+        }
     }
 
     &__right {

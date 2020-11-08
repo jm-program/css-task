@@ -10,7 +10,7 @@ html {
   font-size: 62.5%; }
 
 body {
-  font-family: "Nunito", sans-serif;
+  font-family: "Barlow";
   background-color: white;
   font-weight: 300;
   line-height: 1.6; }
@@ -38,7 +38,7 @@ html {
   font-size: 62.5%; }
 
 body {
-  font-family: "Nunito", sans-serif;
+  font-family: "Barlow";
   background-color: white;
   font-weight: 300;
   line-height: 1.6; }
@@ -73,7 +73,7 @@ html {
   font-size: 62.5%; }
 
 body {
-  font-family: "Nunito", sans-serif;
+  font-family: "Barlow";
   background-color: white;
   font-weight: 300;
   line-height: 1.6; }
@@ -163,7 +163,7 @@ html {
   font-size: 62.5%; }
 
 body {
-  font-family: "Nunito", sans-serif;
+  font-family: "Barlow";
   background-color: white;
   font-weight: 300;
   line-height: 1.6; }
@@ -216,10 +216,20 @@ body {
     .select__checkbox__text {
       padding-left: 1rem; }
 
+.view-link {
+  color: #0076B6; }
+
 .main__left {
+  position: relative;
   width: 50vw;
   background-image: url("../img/bg.jpg");
   background-size: cover; }
+  .main__left__logo {
+    position: absolute;
+    height: 15rem;
+    width: 15rem;
+    left: 4rem;
+    top: -2rem; }
 
 .main__right {
   background-color: #EFF6FF;
