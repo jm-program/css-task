@@ -48,6 +48,7 @@
     }
 
     &__checkbox {
+        margin-top: 2rem;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -61,4 +62,10 @@
 
 .view-link {
     color: #0076B6;
+}
+.modal {
+    width: 50%;
+    padding: .6rem 0 ;
+    //border: solid 2px #96A5B1;
+    color: #7B8A92 ;
 }

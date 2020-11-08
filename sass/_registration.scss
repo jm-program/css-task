@@ -47,6 +47,7 @@
     }
 
     &__or {
+        padding: 0 10rem;
         text-align: center;
         display: grid;
         grid-template-columns: 1fr max-content 1fr;
@@ -54,7 +55,7 @@
         align-items: center;
         margin-bottom: 1rem;
         font-size: 1rem;
-        color: $color-base-text;
+        color: $color-text-content;
 
         &::before,
         &::after {

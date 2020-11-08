@@ -7,77 +7,80 @@
     <link href="https://www.fontsquirrel.com/fonts/barlow" rel="stylesheet">
 </head>
 
-<body class="main">
-<div class="main__left">
-    <img class="main__left__logo" src="img/logo.svg" alt="logo">
+<body>
+<div class="main">
+    <div class="main__left">
+        <img class="main__left__logo" src="img/logo.svg" alt="logo">
+    </div>
+    <div class="main__right">
+
+        <div class="main__right__text-content">
+            <h1 class="heading-1">Get in to it today</h1>
+            <p class="text-content">There is no charge or obligation upon registration</p>
+        </div>
+        <div class="registration">
+            <div class="registration__buttons">
+                <button class="registration__buttons__fb" value="">
+                    <img src="img/facebook.svg"/>
+                    <p>Register with Facebook</p>
+                </button>
+                <button class="registration__buttons__ln">
+                    <img src="img/linkedin.svg"/>
+                    <p>Register with Linkedln</p>
+                </button>
+            </div>
+            <div class="registration__or text-content">OR</div>
+            <div class="registration__inputs">
+                <input type="email" class="registration__inputs__input" placeholder="email"/>
+                <!--                <label for="name" class="form__label">email</label>-->
+
+                <input type="phone" class="registration__inputs__input" placeholder="phone"/>
+            </div>
+
+        </div>
+
+        <div class="select">
+            <div class="select__text-content">
+                <h1 class="heading-1">What type of investor are you?</h1>
+                <p class="text-content">Select type of investor are you below.</p>
+            </div>
+            <div class="select__form">
+                <div class="select__form__group">
+                    <input class="select__form__group__input " type="radio" id="individual" name="size">
+                    <label for="individual" class="select__form__group__label">
+                        <span class="select__form__group__radio-button"></span>
+                        Individual</label>
+                </div>
+                <div class="select__form__group">
+                    <input class="form__radio-input " type="radio" id="business" name="size">
+                    <label for="business" class="select__form__group__label">
+                        <span class="select__form__group__radio-button"></span>
+                        Business</label>
+                </div>
+                <div class="select__form__group">
+                    <input class="form__radio-input " type="radio" id="ira" name="size">
+                    <label for="ira" class="select__form__group__label">
+                        <span class="select__form__group__radio-button"></span>
+                        IRA</label>
+                </div>
+                <div class="select__form__group">
+                    <input class="form__radio-input " type="radio" id="trust" name="size">
+                    <label for="trust" class="select__form__group__label">
+                        <span class="select__form__group__radio-button"></span>
+                        Trust</label>
+                </div>
+            </div>
+            <span class="modal text-content">I am a natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common.</span>
+            <div class="select__checkbox">
+                <input type="checkbox">
+                <p class="select__checkbox__text text-content" >I agree to the terms and receiving notifications from <a class="view-link" href="#">View full terns</a></p>
+            </div>
+
+        </div>
+
+        <button class="main__right__create-button">Create account</button>
+    </div>
 </div>
-<div class="main__right">
-
-    <div class="main__right__text-content">
-        <h1 class="heading-1">Get in to it today</h1>
-        <p class="text-content">There is no charge or obligation upon registration</p>
-    </div>
-    <div class="registration">
-        <div class="registration__buttons">
-            <button class="registration__buttons__fb" value="">
-                <img src="img/facebook.svg"/>
-                <p>Register with Facebook</p>
-            </button>
-            <button class="registration__buttons__ln">
-                <img src="img/linkedin.svg"/>
-                <p>Register with Linkedln</p>
-            </button>
-        </div>
-        <div class="registration__or">OR</div>
-        <div class="registration__inputs">
-            <input type="email" class="registration__inputs__input" placeholder="email"/>
-            <!--                <label for="name" class="form__label">email</label>-->
-
-            <input type="phone" class="registration__inputs__input" placeholder="phone"/>
-        </div>
-
-    </div>
-
-    <div class="select">
-        <div class="select__text-content">
-            <h1 class="heading-1">What type of investor are you?</h1>
-            <p class="text-content">Select type of investor are you below.</p>
-        </div>
-        <div class="select__form">
-            <div class="select__form__group">
-                <input class="select__form__group__input " type="radio" id="individual" name="size">
-                <label for="individual" class="select__form__group__label">
-                    <span class="select__form__group__radio-button"></span>
-                    Individual</label>
-            </div>
-            <div class="select__form__group">
-                <input class="form__radio-input " type="radio" id="business" name="size">
-                <label for="business" class="select__form__group__label">
-                    <span class="select__form__group__radio-button"></span>
-                    Business</label>
-            </div>
-            <div class="select__form__group">
-                <input class="form__radio-input " type="radio" id="ira" name="size">
-                <label for="ira" class="select__form__group__label">
-                    <span class="select__form__group__radio-button"></span>
-                    IRA</label>
-            </div>
-            <div class="select__form__group">
-                <input class="form__radio-input " type="radio" id="trust" name="size">
-                <label for="trust" class="select__form__group__label">
-                    <span class="select__form__group__radio-button"></span>
-                    Trust</label>
-            </div>
-        </div>
-        <div class="select__checkbox">
-            <input type="checkbox">
-            <p class="select__checkbox__text" >I agree to the terms and receiving notifications from <a class="view-link" href="#">View full terns</a></p>
-        </div>
-    </div>
-
-    <button class="main__right__create-button">Create account</button>
-</div>
-
 
 </body>
 
