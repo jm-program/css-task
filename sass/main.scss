@@ -12,6 +12,10 @@
         background-image: url("../img/bg.jpg");
         background-size: cover;
 
+        @media only screen and (max-width: $bp-large) {
+            width: 100vw;
+        }
+
         &__logo {
             position: absolute;
             height: 15rem;
@@ -36,7 +40,8 @@
             height: 30%;
             width: 50%;
             color: white;
-            font-weight: 200;
+            font-family: $font-display;
+            font-weight: 300;
         }
     }
 }

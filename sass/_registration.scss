@@ -4,6 +4,8 @@
     padding: 1rem;
     color: #EEEEEE;
     font-size: 1rem;
+    font-family: $font-display;
+    font-weight: 300;
     height: 100%;
     width: 40%;
     border: none;
@@ -55,14 +57,14 @@
         align-items: center;
         margin-bottom: 1rem;
         font-size: 1rem;
-        color: $color-text-content;
+        color: $color-text-secondary;
 
         &::before,
         &::after {
             content: "";
             height: 1px;
             display: block;
-            background-color: $color-text-content;
+            background-color: $color-text-secondary;
         }
 
     }
@@ -92,7 +94,7 @@
             }
 
             &::-webkit-input-placeholder {
-                color: $color-text-content;
+                color: $color-text-secondary;
             }
         }
 

@@ -11,7 +11,7 @@ html {
 
 body {
   padding: 4rem 3rem;
-  font-family: "Barlow";
+  font-family: "Barlow", sans-serif;
   background-color: #e5e5e5;
   font-weight: 300;
   line-height: 1.6; }
@@ -22,11 +22,11 @@ body {
   box-shadow: 0rem 0 2rem 1.6rem rgba(44, 81, 187, 0.2); }
   @media only screen and (max-width: 62.5em) {
     .main {
-      grid-template-rows: 6rem 80vh min-content 40vw repeat(3, min-content);
-      grid-template-columns: [sidebar-end full-start] minmax(3rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(3rem, 1fr) [full-end]; } }
+      grid-template-rows: repeat(2, 1fr);
+      grid-template-columns: 1fr; } }
   @media only screen and (max-width: 50em) {
     .main {
-      grid-template-rows: 6rem calc(100vh - 6rem) min-content min-content min-content repeat(3, min-content); } }
+      grid-template-columns: [sidebar-end full-start] minmax(3rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(3rem, 1fr) [full-end]; } }
 
 *,
 *::before,
@@ -41,7 +41,7 @@ html {
 
 body {
   padding: 4rem 3rem;
-  font-family: "Barlow";
+  font-family: "Barlow", sans-serif;
   background-color: #e5e5e5;
   font-weight: 300;
   line-height: 1.6; }
@@ -52,18 +52,19 @@ body {
   box-shadow: 0rem 0 2rem 1.6rem rgba(44, 81, 187, 0.2); }
   @media only screen and (max-width: 62.5em) {
     .main {
-      grid-template-rows: 6rem 80vh min-content 40vw repeat(3, min-content);
-      grid-template-columns: [sidebar-end full-start] minmax(3rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(3rem, 1fr) [full-end]; } }
+      grid-template-rows: repeat(2, 1fr);
+      grid-template-columns: 1fr; } }
   @media only screen and (max-width: 50em) {
     .main {
-      grid-template-rows: 6rem calc(100vh - 6rem) min-content min-content min-content repeat(3, min-content); } }
+      grid-template-columns: [sidebar-end full-start] minmax(3rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(3rem, 1fr) [full-end]; } }
 
 .heading-1 {
   color: #2A4A5C;
-  font-weight: 400; }
+  font-weight: 500; }
 
 .text-content {
-  color: #7B8A92; }
+  color: #7B8A92;
+  font-weight: 300; }
 
 *,
 *::before,
@@ -78,7 +79,7 @@ html {
 
 body {
   padding: 4rem 3rem;
-  font-family: "Barlow";
+  font-family: "Barlow", sans-serif;
   background-color: #e5e5e5;
   font-weight: 300;
   line-height: 1.6; }
@@ -89,16 +90,18 @@ body {
   box-shadow: 0rem 0 2rem 1.6rem rgba(44, 81, 187, 0.2); }
   @media only screen and (max-width: 62.5em) {
     .main {
-      grid-template-rows: 6rem 80vh min-content 40vw repeat(3, min-content);
-      grid-template-columns: [sidebar-end full-start] minmax(3rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(3rem, 1fr) [full-end]; } }
+      grid-template-rows: repeat(2, 1fr);
+      grid-template-columns: 1fr; } }
   @media only screen and (max-width: 50em) {
     .main {
-      grid-template-rows: 6rem calc(100vh - 6rem) min-content min-content min-content repeat(3, min-content); } }
+      grid-template-columns: [sidebar-end full-start] minmax(3rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(3rem, 1fr) [full-end]; } }
 
 .registration__buttons__fb, .registration__buttons__ln {
   padding: 1rem;
   color: #EEEEEE;
   font-size: 1rem;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
   height: 100%;
   width: 40%;
   border: none;
@@ -171,7 +174,7 @@ html {
 
 body {
   padding: 4rem 3rem;
-  font-family: "Barlow";
+  font-family: "Barlow", sans-serif;
   background-color: #e5e5e5;
   font-weight: 300;
   line-height: 1.6; }
@@ -182,11 +185,11 @@ body {
   box-shadow: 0rem 0 2rem 1.6rem rgba(44, 81, 187, 0.2); }
   @media only screen and (max-width: 62.5em) {
     .main {
-      grid-template-rows: 6rem 80vh min-content 40vw repeat(3, min-content);
-      grid-template-columns: [sidebar-end full-start] minmax(3rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(3rem, 1fr) [full-end]; } }
+      grid-template-rows: repeat(2, 1fr);
+      grid-template-columns: 1fr; } }
   @media only screen and (max-width: 50em) {
     .main {
-      grid-template-rows: 6rem calc(100vh - 6rem) min-content min-content min-content repeat(3, min-content); } }
+      grid-template-columns: [sidebar-end full-start] minmax(3rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(3rem, 1fr) [full-end]; } }
 
 .select {
   display: flex;
@@ -239,6 +242,9 @@ body {
   width: 50vw;
   background-image: url("../img/bg.jpg");
   background-size: cover; }
+  @media only screen and (max-width: 62.5em) {
+    .main__left {
+      width: 100vw; } }
   .main__left__logo {
     position: absolute;
     height: 15rem;
@@ -259,4 +265,5 @@ body {
     height: 30%;
     width: 50%;
     color: white;
-    font-weight: 200; }
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300; }

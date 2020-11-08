@@ -1,10 +1,11 @@
 @import "base";
 
 .heading-1 {
-    color: $color-base-text;
-    font-weight: 400;
+    color: $color-text-primary;
+    font-weight: 500;
 }
 
 .text-content {
-    color: $color-text-content;
+    color: $color-text-secondary;
+    font-weight: 300;
 }

@@ -1,12 +1,12 @@
 // COLOR VARIABLES
 $color-bg: #EFF6FF;
-$color-base-text: #2A4A5C;
+$color-text-primary: #2A4A5C;
+$color-text-secondary: #7B8A92;
 
 $color-button-fb: #255A9B;
 $color-button-ln: #0076B6;
 
 $color-another-1: #3698FB;
-$color-text-content: #7B8A92;
 $color-another-3: #96A5B1;
 $color-grey-light: #AFAFAF;
 $color-another-5: #EEEEEE;
@@ -14,8 +14,7 @@ $color-another-6: #FFFFFF;
 
 
 // FONT VARIABLES
-$font-primary: 'Barlow';
-//$font-primary: 'Barlow', sans-serif;
+$font-primary: 'Barlow', sans-serif;
 $font-display: 'Josefin Sans', sans-serif;
 
 
@@ -59,12 +58,12 @@ body {
     box-shadow: 0rem 0 2rem 1.6rem rgba(44, 81, 187, .2);
 
     @media only screen and (max-width: $bp-large) {
-        grid-template-rows: 6rem 80vh min-content 40vw repeat(3, min-content);
-        grid-template-columns: [sidebar-end full-start] minmax(3rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(3rem, 1fr) [full-end];
+        grid-template-rows:repeat(2, 1fr);
+        grid-template-columns: 1fr;
     }
 
     @media only screen and (max-width: $bp-medium) {
-        grid-template-rows: 6rem calc(100vh - 6rem) min-content min-content min-content repeat(3, min-content);
+        grid-template-columns: [sidebar-end full-start] minmax(3rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(3rem, 1fr) [full-end];
     }
 
 }
